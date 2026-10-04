@@ -1,4 +1,6 @@
 #include "gaussian.h"
+#include <stdlib.h>   
+#include <math.h> 
 
 /* -------------------------------------------------------------------------
  * TODO (STUDENT): gaussian_elimination_solve
@@ -30,9 +32,65 @@
 void gaussian_elimination_solve(const double *XtX, const double *Xty,
                                 double *beta, int p) {
 
-  /* TODO: implement Gaussian elimination with partial pivoting +
-   * back substitution here. A scratch p x (p+1) augmented matrix can be
-   * allocated locally with malloc and freed before returning.
-   */
+   /* TODO: implement Gaussian elimination with partial pivoting +
+    * back substitution here. A scratch p x (p+1) augmented matrix can be
+    * allocated locally with malloc and freed before returning.
+    */
+   int w = p + 1;
+   double *A = malloc((size_t)p * w * sizeof(double));
 
+   // fill A = [XtX | Xty]
+   for (int i = 0; i < p; i++)
+   {
+      for (int j = 0; j < p; j++)
+      {
+         A[i * (p + 1) + j] = XtX[i * p + j];
+      }
+      A[i * (p + 1) + p] = Xty[i];
+   }
+
+   for (int k = 0; k < p; k++)
+   {
+      // find the pivot
+      int pivot = k;
+      for (int i = k + 1; i < p; i++)
+      {
+         if (fabs(A[i * (p + 1) + k]) > fabs(A[pivot * (p + 1) + k]))
+         {
+            pivot = i;
+         }
+      }
+
+      // swap with row0
+      if (pivot != k)
+      {
+         double temp;
+         for (int j = 0; j < p + 1; j++)
+         {
+            temp = A[k * (p + 1) + j];
+            A[k * (p + 1) + j] = A[pivot * (p + 1) + j];
+            A[pivot * (p + 1) + j] = temp;
+         }
+      }
+      for (int i = k + 1; i < p; i++)
+      {
+         double factor = A[i * (p + 1) + k] / A[k * (p + 1) + k];
+         for (int j = k; j < p + 1; j++)
+         {
+            A[i * (p + 1) + j] = A[i * (p + 1) + j] - factor * A[(p + 1) * k + j];
+         }
+      }
+   }
+
+   for (int i = p - 1; i >= 0; i--){
+      double sum = A[i * (p+1) + p];
+      for (int j = i + 1; j < p; j++)
+      {
+         sum -= A[i* (p+1) + j] * beta[j];
+      }
+      beta[i] = sum / A[i* (p+1) + i];
+   }
+
+
+   free(A);
 }

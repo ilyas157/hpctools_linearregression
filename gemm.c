@@ -11,8 +11,20 @@
  *
  * Naive triple-nested loop. No blocking, no manual vectorization.
  * ---------------------------------------------------------------------- */
-void compute_XtX(const double X[], double XtX[], int N, int p) {
+void compute_XtX(const double X[], double XtX[], int N, int p)
+{
 
   /* TODO: implement XtX = X^T * X here. */
-
+  for (int a = 0; a < p; a++)
+  {
+    for (int b = 0; b < p; b++)
+    {
+      double sum = 0.0;
+      for (int i = 0; i < N; i++)
+      {
+        sum += X[i * p + a] * X[p * i + b];
+      }
+      XtX[a * p + b] = sum;
+    }
+  }
 }

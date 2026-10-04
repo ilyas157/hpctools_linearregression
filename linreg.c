@@ -31,6 +31,7 @@
 #include "rng.h"
 #include "timer.h"
 #include "gaussian.h"
+#include "gaussjordan.h"
 #include "gemm.h"
 #include "gemv.h"
 
@@ -45,14 +46,18 @@
  * All arrays are caller-allocated.
  * ---------------------------------------------------------------------- */
 void generate_data(double *X, double *beta_true, double *y,
-                   int N, int p, double noise_std) {
-  for (int j = 0; j < p; j++) {
+                   int N, int p, double noise_std)
+{
+  for (int j = 0; j < p; j++)
+  {
     beta_true[j] = -5.0 + 10.0 * rng_uniform();
   }
 
-  for (int i = 0; i < N; i++) {
+  for (int i = 0; i < N; i++)
+  {
     double pred = 0.0;
-    for (int j = 0; j < p; j++) {
+    for (int j = 0; j < p; j++)
+    {
       double xij = rng_gaussian();
       X[i * p + j] = xij;
       pred += xij * beta_true[j];
@@ -67,12 +72,15 @@ void generate_data(double *X, double *beta_true, double *y,
  * Reports the max-norm and RMS difference between the computed beta and
  * the ground-truth beta_true used to generate the data.
  * ---------------------------------------------------------------------- */
-static void check_solution(const double *beta, const double *beta_true, int p) {
+static void check_solution(const double *beta, const double *beta_true, int p)
+{
   double max_diff = 0.0, sum_sq = 0.0;
 
-  for (int j = 0; j < p; j++) {
+  for (int j = 0; j < p; j++)
+  {
     double diff = fabs(beta[j] - beta_true[j]);
-    if (diff > max_diff) max_diff = diff;
+    if (diff > max_diff)
+      max_diff = diff;
     sum_sq += diff * diff;
   }
 
@@ -84,8 +92,10 @@ static void check_solution(const double *beta, const double *beta_true, int p) {
 /* -------------------------------------------------------------------------
  * main (DO NOT MODIFY, beyond adapting reporting/logging as needed)
  * ---------------------------------------------------------------------- */
-int main(int argc, char **argv) {
-  if (argc < 3) {
+int main(int argc, char **argv)
+{
+  if (argc < 3)
+  {
     fprintf(stderr, "Usage: %s N p [seed] [noise_std]\n", argv[0]);
     return 1;
   }
@@ -94,19 +104,23 @@ int main(int argc, char **argv) {
   int p = atoi(argv[2]);
   unsigned int seed = (argc > 3) ? (unsigned int)atoi(argv[3]) : 42u;
   double noise_std = (argc > 4) ? atof(argv[4]) : 0.5;
+  
+  int use_gj = (argc > 5) && (strcmp(argv[5], "gj") == 0);
+  printf("Solver: %s\n", use_gj ? "Gauss-Jordan" : "Gaussian elimination");
 
   printf("Config: N=%d p=%d seed=%u noise_std=%.3f\n", N, p, seed, noise_std);
 
   rng_seed(seed);
 
-  double *X         = malloc((size_t)N * p * sizeof(double));
+  double *X = malloc((size_t)N * p * sizeof(double));
   double *beta_true = malloc((size_t)p * sizeof(double));
-  double *y         = malloc((size_t)N * sizeof(double));
-  double *XtX       = malloc((size_t)p * p * sizeof(double));
-  double *Xty       = malloc((size_t)p * sizeof(double));
-  double *beta      = malloc((size_t)p * sizeof(double));
+  double *y = malloc((size_t)N * sizeof(double));
+  double *XtX = malloc((size_t)p * p * sizeof(double));
+  double *Xty = malloc((size_t)p * sizeof(double));
+  double *beta = malloc((size_t)p * sizeof(double));
 
-  if (!X || !beta_true || !y || !XtX || !Xty || !beta) {
+  if (!X || !beta_true || !y || !XtX || !Xty || !beta)
+  {
     fprintf(stderr, "Allocation failed (try smaller N/p).\n");
     return 1;
   }
@@ -123,13 +137,21 @@ int main(int argc, char **argv) {
   compute_Xty(X, y, Xty, N, p);
   timestamp(&t2);
 
-  gaussian_elimination_solve(XtX, Xty, beta, p);
+  if (use_gj)
+    gauss_jordan_solve(XtX, Xty, beta, p);
+  else
+    gaussian_elimination_solve(XtX, Xty, beta, p);  
+    
   timestamp(&t3);
 
   check_solution(beta, beta_true, p);
 
   // Print times:
   // printf("Time taken by ...: %.2f s\n", diff_seconds(&t1, &t0));
+  printf("XtX time:   %.6f s\n", diff_seconds(&t0, &t1));
+  printf("Xty time:   %.6f s\n", diff_seconds(&t1, &t2));
+  printf("Solve time: %.6f s\n", diff_seconds(&t2, &t3));
+  printf("Total time: %.6f s\n", diff_seconds(&t0, &t3));
 
   free(X);
   free(beta_true);
