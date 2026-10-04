@@ -8,7 +8,7 @@
 #SBATCH -o linreg_%j.out
 
 CC=$1
-SRC="linreg.c gemm.c gemv.c gaussian.c gaussjordan.c rng.c"
+SRC="src/linreg.c src/gemm.c src/gemv.c src/gaussian.c src/gaussjordan.c src/rng.c"
 
 module purge
 module load cesga/2020 intel/2021.3.0
