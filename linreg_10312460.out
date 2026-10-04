@@ -1,0 +1,1127 @@
+slurmstepd: info: Setting TMPDIR to /scratch/10312460. Previous errors about TMPDIR can be discarded
+gcccore/system unloaded
+intel/2021.3.0 unloaded
+cesga/2020 unloaded
+        Preparing the environment for use of the CESGA 2020 software stack.
+        Please rebuild modules cache: module --ignore-cache avail
+     
+cesga/2020 loaded
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) cesga/2020
+cesga/2020 unloaded
+        Preparing the environment for use of the CESGA 2020 software stack.
+        Please rebuild modules cache: module --ignore-cache avail
+     
+cesga/2020 loaded
+gcccore/system loaded
+intel/2021.3.0 loaded
+icc (ICC) 2021.3.0 20210609
+### icc O0 20000 50 gauss rep1
+Solver: Gaussian elimination
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.259618 s
+Xty time:   0.003887 s
+Solve time: 0.000181 s
+Total time: 0.263687 s
+### icc O0 20000 50 gauss rep2
+Solver: Gaussian elimination
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.258197 s
+Xty time:   0.003854 s
+Solve time: 0.000184 s
+Total time: 0.262234 s
+### icc O0 20000 50 gauss rep3
+Solver: Gaussian elimination
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.261018 s
+Xty time:   0.003878 s
+Solve time: 0.000185 s
+Total time: 0.265082 s
+### icc O0 20000 50 gauss rep4
+Solver: Gaussian elimination
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.258975 s
+Xty time:   0.003864 s
+Solve time: 0.000182 s
+Total time: 0.263020 s
+### icc O0 20000 50 gauss rep5
+Solver: Gaussian elimination
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.258834 s
+Xty time:   0.003862 s
+Solve time: 0.000185 s
+Total time: 0.262881 s
+### icc O0 20000 50 gj rep1
+Solver: Gauss-Jordan
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.259029 s
+Xty time:   0.003876 s
+Solve time: 0.000259 s
+Total time: 0.263164 s
+### icc O0 20000 50 gj rep2
+Solver: Gauss-Jordan
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.258901 s
+Xty time:   0.003857 s
+Solve time: 0.000264 s
+Total time: 0.263021 s
+### icc O0 20000 50 gj rep3
+Solver: Gauss-Jordan
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.259424 s
+Xty time:   0.003882 s
+Solve time: 0.000256 s
+Total time: 0.263561 s
+### icc O0 20000 50 gj rep4
+Solver: Gauss-Jordan
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.259300 s
+Xty time:   0.003864 s
+Solve time: 0.000263 s
+Total time: 0.263427 s
+### icc O0 20000 50 gj rep5
+Solver: Gauss-Jordan
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.260016 s
+Xty time:   0.003884 s
+Solve time: 0.000257 s
+Total time: 0.264157 s
+### icc O0 50000 300 gauss rep1
+Solver: Gaussian elimination
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   29.581603 s
+Xty time:   0.086452 s
+Solve time: 0.032970 s
+Total time: 29.701025 s
+### icc O0 50000 300 gauss rep2
+Solver: Gaussian elimination
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   29.516093 s
+Xty time:   0.086088 s
+Solve time: 0.033203 s
+Total time: 29.635383 s
+### icc O0 50000 300 gauss rep3
+Solver: Gaussian elimination
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   38.440198 s
+Xty time:   0.116638 s
+Solve time: 0.033060 s
+Total time: 38.589896 s
+### icc O0 50000 300 gauss rep4
+Solver: Gaussian elimination
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   30.756701 s
+Xty time:   0.120211 s
+Solve time: 0.033103 s
+Total time: 30.910015 s
+### icc O0 50000 300 gauss rep5
+Solver: Gaussian elimination
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   29.721793 s
+Xty time:   0.085702 s
+Solve time: 0.033012 s
+Total time: 29.840506 s
+### icc O0 50000 300 gj rep1
+Solver: Gauss-Jordan
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   29.381902 s
+Xty time:   0.085831 s
+Solve time: 0.048209 s
+Total time: 29.515942 s
+### icc O0 50000 300 gj rep2
+Solver: Gauss-Jordan
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   29.629501 s
+Xty time:   0.086342 s
+Solve time: 0.048400 s
+Total time: 29.764243 s
+### icc O0 50000 300 gj rep3
+Solver: Gauss-Jordan
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   29.476968 s
+Xty time:   0.085635 s
+Solve time: 0.048036 s
+Total time: 29.610639 s
+### icc O0 50000 300 gj rep4
+Solver: Gauss-Jordan
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   29.434852 s
+Xty time:   0.086346 s
+Solve time: 0.048424 s
+Total time: 29.569621 s
+### icc O0 50000 300 gj rep5
+Solver: Gauss-Jordan
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   29.432267 s
+Xty time:   0.084928 s
+Solve time: 0.048012 s
+Total time: 29.565207 s
+### icc O0 2000 2000 gauss rep1
+Solver: Gaussian elimination
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+XtX time:   29.522361 s
+Xty time:   0.013453 s
+Solve time: 9.239732 s
+Total time: 38.775547 s
+### icc O0 2000 2000 gauss rep2
+Solver: Gaussian elimination
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+XtX time:   30.659638 s
+Xty time:   0.013544 s
+Solve time: 9.240569 s
+Total time: 39.913751 s
+### icc O0 2000 2000 gauss rep3
+Solver: Gaussian elimination
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+XtX time:   31.919024 s
+Xty time:   0.014863 s
+Solve time: 9.218020 s
+Total time: 41.151907 s
+### icc O0 2000 2000 gauss rep4
+Solver: Gaussian elimination
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+XtX time:   31.904712 s
+Xty time:   0.014866 s
+Solve time: 9.220792 s
+Total time: 41.140371 s
+### icc O0 2000 2000 gauss rep5
+Solver: Gaussian elimination
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+XtX time:   31.969616 s
+Xty time:   0.014864 s
+Solve time: 9.237402 s
+Total time: 41.221883 s
+### icc O0 2000 2000 gj rep1
+Solver: Gauss-Jordan
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+XtX time:   31.878166 s
+Xty time:   0.014827 s
+Solve time: 13.811889 s
+Total time: 45.704882 s
+### icc O0 2000 2000 gj rep2
+Solver: Gauss-Jordan
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+XtX time:   31.957815 s
+Xty time:   0.014876 s
+Solve time: 13.825013 s
+Total time: 45.797703 s
+### icc O0 2000 2000 gj rep3
+Solver: Gauss-Jordan
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+XtX time:   31.548642 s
+Xty time:   0.014693 s
+Solve time: 13.826871 s
+Total time: 45.390206 s
+### icc O0 2000 2000 gj rep4
+Solver: Gauss-Jordan
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+XtX time:   30.780113 s
+Xty time:   0.013561 s
+Solve time: 13.824930 s
+Total time: 44.618604 s
+### icc O0 2000 2000 gj rep5
+Solver: Gauss-Jordan
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288211
+RMS |beta - beta_true|: 8.956685
+XtX time:   31.979762 s
+Xty time:   0.014869 s
+Solve time: 13.807075 s
+Total time: 45.801706 s
+### icc O2 20000 50 gauss rep1
+Solver: Gaussian elimination
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.198812 s
+Xty time:   0.002035 s
+Solve time: 0.000071 s
+Total time: 0.200918 s
+### icc O2 20000 50 gauss rep2
+Solver: Gaussian elimination
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.199042 s
+Xty time:   0.002038 s
+Solve time: 0.000063 s
+Total time: 0.201143 s
+### icc O2 20000 50 gauss rep3
+Solver: Gaussian elimination
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.199985 s
+Xty time:   0.002046 s
+Solve time: 0.000061 s
+Total time: 0.202092 s
+### icc O2 20000 50 gauss rep4
+Solver: Gaussian elimination
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.199017 s
+Xty time:   0.002040 s
+Solve time: 0.000062 s
+Total time: 0.201119 s
+### icc O2 20000 50 gauss rep5
+Solver: Gaussian elimination
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.198444 s
+Xty time:   0.002008 s
+Solve time: 0.000063 s
+Total time: 0.200514 s
+### icc O2 20000 50 gj rep1
+Solver: Gauss-Jordan
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.199167 s
+Xty time:   0.002034 s
+Solve time: 0.000078 s
+Total time: 0.201280 s
+### icc O2 20000 50 gj rep2
+Solver: Gauss-Jordan
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.200199 s
+Xty time:   0.002052 s
+Solve time: 0.000076 s
+Total time: 0.202327 s
+### icc O2 20000 50 gj rep3
+Solver: Gauss-Jordan
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.199157 s
+Xty time:   0.002050 s
+Solve time: 0.000076 s
+Total time: 0.201283 s
+### icc O2 20000 50 gj rep4
+Solver: Gauss-Jordan
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.200121 s
+Xty time:   0.002048 s
+Solve time: 0.000073 s
+Total time: 0.202243 s
+### icc O2 20000 50 gj rep5
+Solver: Gauss-Jordan
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.197434 s
+Xty time:   0.002014 s
+Solve time: 0.000073 s
+Total time: 0.199521 s
+### icc O2 50000 300 gauss rep1
+Solver: Gaussian elimination
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   19.095964 s
+Xty time:   0.039983 s
+Solve time: 0.002479 s
+Total time: 19.138426 s
+### icc O2 50000 300 gauss rep2
+Solver: Gaussian elimination
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   19.096641 s
+Xty time:   0.040023 s
+Solve time: 0.002517 s
+Total time: 19.139181 s
+### icc O2 50000 300 gauss rep3
+Solver: Gaussian elimination
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   18.753568 s
+Xty time:   0.039183 s
+Solve time: 0.002516 s
+Total time: 18.795268 s
+### icc O2 50000 300 gauss rep4
+Solver: Gaussian elimination
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   19.083493 s
+Xty time:   0.039994 s
+Solve time: 0.002503 s
+Total time: 19.125990 s
+### icc O2 50000 300 gauss rep5
+Solver: Gaussian elimination
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   19.113963 s
+Xty time:   0.040021 s
+Solve time: 0.002515 s
+Total time: 19.156499 s
+### icc O2 50000 300 gj rep1
+Solver: Gauss-Jordan
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   19.096381 s
+Xty time:   0.040015 s
+Solve time: 0.003572 s
+Total time: 19.139967 s
+### icc O2 50000 300 gj rep2
+Solver: Gauss-Jordan
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   19.117828 s
+Xty time:   0.040066 s
+Solve time: 0.003514 s
+Total time: 19.161408 s
+### icc O2 50000 300 gj rep3
+Solver: Gauss-Jordan
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   19.087716 s
+Xty time:   0.039993 s
+Solve time: 0.003564 s
+Total time: 19.131273 s
+### icc O2 50000 300 gj rep4
+Solver: Gauss-Jordan
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   19.126748 s
+Xty time:   0.040095 s
+Solve time: 0.003536 s
+Total time: 19.170379 s
+### icc O2 50000 300 gj rep5
+Solver: Gauss-Jordan
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   19.086651 s
+Xty time:   0.040022 s
+Solve time: 0.003575 s
+Total time: 19.130248 s
+### icc O2 2000 2000 gauss rep1
+Solver: Gaussian elimination
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.800951 s
+Xty time:   0.005169 s
+Solve time: 0.907832 s
+Total time: 14.713953 s
+### icc O2 2000 2000 gauss rep2
+Solver: Gaussian elimination
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.829975 s
+Xty time:   0.005170 s
+Solve time: 0.908310 s
+Total time: 14.743455 s
+### icc O2 2000 2000 gauss rep3
+Solver: Gaussian elimination
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   12.976841 s
+Xty time:   0.004729 s
+Solve time: 0.965613 s
+Total time: 13.947183 s
+### icc O2 2000 2000 gauss rep4
+Solver: Gaussian elimination
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.800389 s
+Xty time:   0.005142 s
+Solve time: 0.905437 s
+Total time: 14.710968 s
+### icc O2 2000 2000 gauss rep5
+Solver: Gaussian elimination
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.811885 s
+Xty time:   0.005160 s
+Solve time: 0.909525 s
+Total time: 14.726569 s
+### icc O2 2000 2000 gj rep1
+Solver: Gauss-Jordan
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.805867 s
+Xty time:   0.005135 s
+Solve time: 1.417935 s
+Total time: 15.228937 s
+### icc O2 2000 2000 gj rep2
+Solver: Gauss-Jordan
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.801933 s
+Xty time:   0.005145 s
+Solve time: 1.431633 s
+Total time: 15.238712 s
+### icc O2 2000 2000 gj rep3
+Solver: Gauss-Jordan
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.796804 s
+Xty time:   0.005156 s
+Solve time: 1.431234 s
+Total time: 15.233194 s
+### icc O2 2000 2000 gj rep4
+Solver: Gauss-Jordan
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.790715 s
+Xty time:   0.005126 s
+Solve time: 1.441905 s
+Total time: 15.237745 s
+### icc O2 2000 2000 gj rep5
+Solver: Gauss-Jordan
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.791041 s
+Xty time:   0.005158 s
+Solve time: 1.438385 s
+Total time: 15.234584 s
+### icc O3 20000 50 gauss rep1
+Solver: Gaussian elimination
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.199171 s
+Xty time:   0.002042 s
+Solve time: 0.000071 s
+Total time: 0.201284 s
+### icc O3 20000 50 gauss rep2
+Solver: Gaussian elimination
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.198774 s
+Xty time:   0.002039 s
+Solve time: 0.000066 s
+Total time: 0.200879 s
+### icc O3 20000 50 gauss rep3
+Solver: Gaussian elimination
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.199066 s
+Xty time:   0.002046 s
+Solve time: 0.000063 s
+Total time: 0.201174 s
+### icc O3 20000 50 gauss rep4
+Solver: Gaussian elimination
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.200072 s
+Xty time:   0.002053 s
+Solve time: 0.000064 s
+Total time: 0.202190 s
+### icc O3 20000 50 gauss rep5
+Solver: Gaussian elimination
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.199052 s
+Xty time:   0.002043 s
+Solve time: 0.000069 s
+Total time: 0.201164 s
+### icc O3 20000 50 gj rep1
+Solver: Gauss-Jordan
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.200127 s
+Xty time:   0.002045 s
+Solve time: 0.000079 s
+Total time: 0.202251 s
+### icc O3 20000 50 gj rep2
+Solver: Gauss-Jordan
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.199000 s
+Xty time:   0.002038 s
+Solve time: 0.000081 s
+Total time: 0.201119 s
+### icc O3 20000 50 gj rep3
+Solver: Gauss-Jordan
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.200009 s
+Xty time:   0.002050 s
+Solve time: 0.000076 s
+Total time: 0.202135 s
+### icc O3 20000 50 gj rep4
+Solver: Gauss-Jordan
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.199052 s
+Xty time:   0.002039 s
+Solve time: 0.000076 s
+Total time: 0.201167 s
+### icc O3 20000 50 gj rep5
+Solver: Gauss-Jordan
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.200056 s
+Xty time:   0.002054 s
+Solve time: 0.000073 s
+Total time: 0.202183 s
+### icc O3 50000 300 gauss rep1
+Solver: Gaussian elimination
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   19.062793 s
+Xty time:   0.039761 s
+Solve time: 0.002598 s
+Total time: 19.105152 s
+### icc O3 50000 300 gauss rep2
+Solver: Gaussian elimination
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   19.065358 s
+Xty time:   0.039902 s
+Solve time: 0.002597 s
+Total time: 19.107857 s
+### icc O3 50000 300 gauss rep3
+Solver: Gaussian elimination
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   19.041455 s
+Xty time:   0.039732 s
+Solve time: 0.002615 s
+Total time: 19.083802 s
+### icc O3 50000 300 gauss rep4
+Solver: Gaussian elimination
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   19.056266 s
+Xty time:   0.039862 s
+Solve time: 0.002608 s
+Total time: 19.098736 s
+### icc O3 50000 300 gauss rep5
+Solver: Gaussian elimination
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   19.061933 s
+Xty time:   0.039772 s
+Solve time: 0.002583 s
+Total time: 19.104288 s
+### icc O3 50000 300 gj rep1
+Solver: Gauss-Jordan
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   19.076559 s
+Xty time:   0.039914 s
+Solve time: 0.003673 s
+Total time: 19.120146 s
+### icc O3 50000 300 gj rep2
+Solver: Gauss-Jordan
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   19.041715 s
+Xty time:   0.039760 s
+Solve time: 0.003662 s
+Total time: 19.085137 s
+### icc O3 50000 300 gj rep3
+Solver: Gauss-Jordan
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   19.056109 s
+Xty time:   0.039877 s
+Solve time: 0.003675 s
+Total time: 19.099661 s
+### icc O3 50000 300 gj rep4
+Solver: Gauss-Jordan
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   19.056472 s
+Xty time:   0.039752 s
+Solve time: 0.003718 s
+Total time: 19.099943 s
+### icc O3 50000 300 gj rep5
+Solver: Gauss-Jordan
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   23.090292 s
+Xty time:   0.051397 s
+Solve time: 0.003631 s
+Total time: 23.145320 s
+### icc O3 2000 2000 gauss rep1
+Solver: Gaussian elimination
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.874964 s
+Xty time:   0.005163 s
+Solve time: 0.915433 s
+Total time: 14.795560 s
+### icc O3 2000 2000 gauss rep2
+Solver: Gaussian elimination
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.867837 s
+Xty time:   0.005144 s
+Solve time: 0.916432 s
+Total time: 14.789413 s
+### icc O3 2000 2000 gauss rep3
+Solver: Gaussian elimination
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.859308 s
+Xty time:   0.005126 s
+Solve time: 0.914866 s
+Total time: 14.779300 s
+### icc O3 2000 2000 gauss rep4
+Solver: Gaussian elimination
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.890306 s
+Xty time:   0.005144 s
+Solve time: 0.910041 s
+Total time: 14.805491 s
+### icc O3 2000 2000 gauss rep5
+Solver: Gaussian elimination
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.863188 s
+Xty time:   0.005154 s
+Solve time: 0.905626 s
+Total time: 14.773968 s
+### icc O3 2000 2000 gj rep1
+Solver: Gauss-Jordan
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.869510 s
+Xty time:   0.005130 s
+Solve time: 1.431673 s
+Total time: 15.306313 s
+### icc O3 2000 2000 gj rep2
+Solver: Gauss-Jordan
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.863930 s
+Xty time:   0.005129 s
+Solve time: 1.446206 s
+Total time: 15.315264 s
+### icc O3 2000 2000 gj rep3
+Solver: Gauss-Jordan
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.865499 s
+Xty time:   0.005133 s
+Solve time: 1.443038 s
+Total time: 15.313670 s
+### icc O3 2000 2000 gj rep4
+Solver: Gauss-Jordan
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.863330 s
+Xty time:   0.005158 s
+Solve time: 1.438273 s
+Total time: 15.306760 s
+### icc O3 2000 2000 gj rep5
+Solver: Gauss-Jordan
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.865582 s
+Xty time:   0.005128 s
+Solve time: 1.446518 s
+Total time: 15.317228 s
+### icc Ofast 20000 50 gauss rep1
+Solver: Gaussian elimination
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.200255 s
+Xty time:   0.002057 s
+Solve time: 0.000066 s
+Total time: 0.202378 s
+### icc Ofast 20000 50 gauss rep2
+Solver: Gaussian elimination
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.198842 s
+Xty time:   0.002039 s
+Solve time: 0.000065 s
+Total time: 0.200946 s
+### icc Ofast 20000 50 gauss rep3
+Solver: Gaussian elimination
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.199954 s
+Xty time:   0.002040 s
+Solve time: 0.000063 s
+Total time: 0.202057 s
+### icc Ofast 20000 50 gauss rep4
+Solver: Gaussian elimination
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.198873 s
+Xty time:   0.002032 s
+Solve time: 0.000065 s
+Total time: 0.200970 s
+### icc Ofast 20000 50 gauss rep5
+Solver: Gaussian elimination
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.198938 s
+Xty time:   0.002031 s
+Solve time: 0.000065 s
+Total time: 0.201033 s
+### icc Ofast 20000 50 gj rep1
+Solver: Gauss-Jordan
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.199914 s
+Xty time:   0.002052 s
+Solve time: 0.000078 s
+Total time: 0.202044 s
+### icc Ofast 20000 50 gj rep2
+Solver: Gauss-Jordan
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.198891 s
+Xty time:   0.002026 s
+Solve time: 0.000078 s
+Total time: 0.200995 s
+### icc Ofast 20000 50 gj rep3
+Solver: Gauss-Jordan
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.198884 s
+Xty time:   0.002036 s
+Solve time: 0.000103 s
+Total time: 0.201023 s
+### icc Ofast 20000 50 gj rep4
+Solver: Gauss-Jordan
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.198659 s
+Xty time:   0.002023 s
+Solve time: 0.000099 s
+Total time: 0.200781 s
+### icc Ofast 20000 50 gj rep5
+Solver: Gauss-Jordan
+Config: N=20000 p=50 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.008139
+RMS |beta - beta_true|: 0.003066
+XtX time:   0.197756 s
+Xty time:   0.002004 s
+Solve time: 0.000071 s
+Total time: 0.199831 s
+### icc Ofast 50000 300 gauss rep1
+Solver: Gaussian elimination
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   19.026295 s
+Xty time:   0.039789 s
+Solve time: 0.002585 s
+Total time: 19.068669 s
+### icc Ofast 50000 300 gauss rep2
+Solver: Gaussian elimination
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   19.012054 s
+Xty time:   0.039795 s
+Solve time: 0.002580 s
+Total time: 19.054429 s
+### icc Ofast 50000 300 gauss rep3
+Solver: Gaussian elimination
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   19.029473 s
+Xty time:   0.039786 s
+Solve time: 0.002620 s
+Total time: 19.071878 s
+### icc Ofast 50000 300 gauss rep4
+Solver: Gaussian elimination
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   19.014690 s
+Xty time:   0.039754 s
+Solve time: 0.002586 s
+Total time: 19.057031 s
+### icc Ofast 50000 300 gauss rep5
+Solver: Gaussian elimination
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   19.032257 s
+Xty time:   0.039752 s
+Solve time: 0.002595 s
+Total time: 19.074605 s
+### icc Ofast 50000 300 gj rep1
+Solver: Gauss-Jordan
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   19.008127 s
+Xty time:   0.039759 s
+Solve time: 0.003661 s
+Total time: 19.051547 s
+### icc Ofast 50000 300 gj rep2
+Solver: Gauss-Jordan
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   20.776810 s
+Xty time:   0.051522 s
+Solve time: 0.003647 s
+Total time: 20.831979 s
+### icc Ofast 50000 300 gj rep3
+Solver: Gauss-Jordan
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   19.020160 s
+Xty time:   0.039745 s
+Solve time: 0.003679 s
+Total time: 19.063584 s
+### icc Ofast 50000 300 gj rep4
+Solver: Gauss-Jordan
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   19.027107 s
+Xty time:   0.039743 s
+Solve time: 0.003772 s
+Total time: 19.070622 s
+### icc Ofast 50000 300 gj rep5
+Solver: Gauss-Jordan
+Config: N=50000 p=300 seed=42 noise_std=0.500
+Max |beta - beta_true|: 0.007840
+RMS |beta - beta_true|: 0.002276
+XtX time:   19.018873 s
+Xty time:   0.039742 s
+Solve time: 0.003679 s
+Total time: 19.062295 s
+### icc Ofast 2000 2000 gauss rep1
+Solver: Gaussian elimination
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.901556 s
+Xty time:   0.005129 s
+Solve time: 0.914040 s
+Total time: 14.820725 s
+### icc Ofast 2000 2000 gauss rep2
+Solver: Gaussian elimination
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.867312 s
+Xty time:   0.005129 s
+Solve time: 0.909850 s
+Total time: 14.782291 s
+### icc Ofast 2000 2000 gauss rep3
+Solver: Gaussian elimination
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.860354 s
+Xty time:   0.005163 s
+Solve time: 0.914668 s
+Total time: 14.780185 s
+### icc Ofast 2000 2000 gauss rep4
+Solver: Gaussian elimination
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.877258 s
+Xty time:   0.005134 s
+Solve time: 0.915020 s
+Total time: 14.797412 s
+### icc Ofast 2000 2000 gauss rep5
+Solver: Gaussian elimination
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.854541 s
+Xty time:   0.005130 s
+Solve time: 0.912814 s
+Total time: 14.772485 s
+### icc Ofast 2000 2000 gj rep1
+Solver: Gauss-Jordan
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.882994 s
+Xty time:   0.005138 s
+Solve time: 1.446088 s
+Total time: 15.334219 s
+### icc Ofast 2000 2000 gj rep2
+Solver: Gauss-Jordan
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.871817 s
+Xty time:   0.005169 s
+Solve time: 1.450125 s
+Total time: 15.327111 s
+### icc Ofast 2000 2000 gj rep3
+Solver: Gauss-Jordan
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.897240 s
+Xty time:   0.005151 s
+Solve time: 1.432771 s
+Total time: 15.335161 s
+### icc Ofast 2000 2000 gj rep4
+Solver: Gauss-Jordan
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.859854 s
+Xty time:   0.005132 s
+Solve time: 1.452007 s
+Total time: 15.316994 s
+### icc Ofast 2000 2000 gj rep5
+Solver: Gauss-Jordan
+Config: N=2000 p=2000 seed=42 noise_std=0.500
+Max |beta - beta_true|: 30.288210
+RMS |beta - beta_true|: 8.956685
+XtX time:   13.892156 s
+Xty time:   0.005166 s
+Solve time: 1.447076 s
+Total time: 15.344399 s
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10312460)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 10312460
+Cluster: finisterrae3
+User/Group: curso363/ulc
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 64
+CPU Utilized: 00:29:57
+CPU Efficiency: 1.56% of 1-08:03:12 core-walltime
+Job Wall-clock time: 00:30:03
+Memory Utilized: 117.11 MB
+Memory Efficiency: 2.86% of 4.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
